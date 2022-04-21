@@ -4,9 +4,21 @@
 
 ### Let
 
-let nomVariable = 
-- on peut modifier la variable; 
-- sa potée est limité au bloc où elle est déclarée != var qui est une variable globale
+__let nomVariable =__ 
+- peut être locale ou globale
+- __on peut modifier la valeur plus tard dans le code__ 
+- sa potée est limité au bloc où elle est déclarée
 - instancier 0 à n fois
-- on ne peux pas réutiliser le même nom de variable dans un seul bloc
-- 
+- on ne peux pas redéclarer la même variable dans un seul bloc
+
+
+## Const
+
+__const nomVariable =__ 
+- __l'identifiant ne peut pas être réaffecté, valeur reste la même, impossible d'avoir une fonction où variable qui porte le même nom !=__
+- peut être locale ou globale
+- sa potée est limité au bloc où elle est déclarée
+- __doit être initialisé__
+- __impossible de changer la valeur plus tard__
+-  instancier 0 à n fois
+
