@@ -22,3 +22,14 @@ __const nomVariable =__
 - __impossible de changer la valeur plus tard__
 -  instancier 0 à n fois
 
+
+## import / export
+
+dans function.js :
+export const hello = () => console.log('hello');
+
+dans script.js : 
+import {hello} from './functions.js';
++
+hello();
+
