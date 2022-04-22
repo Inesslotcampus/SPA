@@ -25,6 +25,8 @@ __const nomVariable =__
 
 ## import / export
 
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/export
+
 dans function.js :
 export const hello = () => console.log('hello');
 
