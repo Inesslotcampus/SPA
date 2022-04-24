@@ -21,6 +21,7 @@ __const nomVariable =__
 - __doit être initialisé__
 - __impossible de changer la valeur plus tard__
 -  instancier 0 à n fois
+-  dans tableau et objet = on peut utiliser des methodes pour rajouter des propriétés et des attributs.
 
 
 ## import / export
