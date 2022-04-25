@@ -36,3 +36,12 @@ import {hello} from './functions.js';
 +
 hello();
 
+## this 
+
+### Libre
+
+This va chercher le parent le plus proche si il n'est pas dans un objet (le parent de tous les objets)
+
+## stricte
+
+Non défini ou objet courant
