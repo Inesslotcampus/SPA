@@ -21,8 +21,8 @@ __const nomVariable =__
 - __doit être initialisé__
 - __impossible de changer la valeur plus tard__
 -  instancier 0 à n fois
--  dans tableau = tant qu'il reste un tableau on peut changer les attributs 
--  objet = on peutchanger les valeurs des propriétés tant qu'on ne les change pas.
+-  dans tableau = tant qu'il reste un tableau on peut changer les valeurs dedans mais on ne peut pas changer son type 
+-  objet = on ne peut pas changer les attributs.
 
 
 ## import / export
