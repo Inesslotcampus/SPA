@@ -58,3 +58,9 @@ __Des composants sont des instances de vues qui sont réutilisables dans le code
 
 __Utilise des composants pour créer la page html. Au lieu de modifier tout le dom, vue js va avoir un dom virtuel où tous les changements seront fait. Ensuite, le dom virtuel sera comparé avec le dom existant et il va remplacer les parties du dom qui sont différentes du dom virtuel.__
 
+## Promesses 
+
+-object qui est renvoyé auquel on attache des callback.
+Il a à chaque fois un résultat négatif ou positif: le code continue même si le résultat attendu est négatif.
+
+
