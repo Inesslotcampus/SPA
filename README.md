@@ -60,7 +60,7 @@ __Utilise des composants pour créer la page html. Au lieu de modifier tout le d
 
 ## Promesses 
 
--object qui est renvoyé auquel on attache des callback.
+__object qui est renvoyé auquel on attache des callback.
 Il a à chaque fois un résultat négatif ou positif: le code continue même si le résultat attendu est négatif.
 
 
