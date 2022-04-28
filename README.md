@@ -20,9 +20,9 @@ __const nomVariable =__
 - sa potée est limité au bloc où elle est déclarée
 - __doit être initialisé__
 - __impossible de changer la valeur plus tard__
--  instancier 0 à n fois
--  dans tableau = tant qu'il reste un tableau on peut changer les valeurs dedans mais on ne peut pas changer son type 
--  objet = on ne peut pas changer les attributs.
+-  on peut l'instancier 0 à n fois
+-  Tableau = on peut modifier les valeurs tant qu'on ne le réasigne pas. On peut changer ses valeurs en l'appelant avec des index ou rajouter et supprimer des éléments.
+- Objet = on peut modifier, supprimer des attributs mais on ne peut pas les réasigner non plus.
 
 
 ## import / export
@@ -46,3 +46,11 @@ This va chercher le parent le plus proche si il n'est pas dans un objet (le pare
 ## stricte
 
 Non défini ou objet courant
+
+## Composant 
+
+__Instances de vues qui sont réutilisables dans le code autant de fois qu'on veut. Une brique qui va permettre de construire la page en html. Il englobe le HTML avec  template, une partie js qui permet de gérer l'initialisation, les intéractions, la relation entre parent et enfant etc... avec script et le css qui permet d'avoir son style. __
+
+- on peut manipuler des listes avec un composant
+- il peut hérité des composants parents
+
