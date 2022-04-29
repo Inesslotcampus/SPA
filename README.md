@@ -49,7 +49,7 @@ Non défini ou objet courant
 
 ## Composant 
 
-__Des composants sont des instances de vues qui sont réutilisables dans le code autant de fois qu'on veut(permet de ne pas répeter le code). Un composant est une brique qui va permettre de construire la page en html. Il englobe le HTML avec  template, une partie js qui permet de gérer l'initialisation, les intéractions, la relation entre parent et enfant etc... avec script et le css qui permet d'avoir son style.__
+__Des composants sont des instances de vues qui sont réutilisables dans le code autant de fois qu'on veut(permet de ne pas répeter le code). Un composant est une brique qui va permettre de construire la page en html. Il englobe le HTML avec  template, une partie script qui permet de gérer l'initialisation, les intéractions, la relation entre parent et enfant etc... avec script et le css qui permet d'avoir son style.__
 
 - on peut manipuler des listes avec un composant
 
